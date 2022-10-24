@@ -196,3 +196,33 @@ h1.titolo{
     background-color: darksalmon;
     margin-top: 7rem;
 }
+/* FINE MAIN */
+footer{
+    background-color: black;
+    height: 20rem;
+    margin-top: 6rem;
+    padding-top: 4rem;
+}
+
+footer section.another{
+    background-color: yellow;
+    height: 10rem;
+    margin-bottom: 3rem;
+}
+
+.footer-list{
+    width: calc(100% / 5);
+    height: 7rem;
+    background-color: #ff0000;
+    border: 2px blue dashed;
+}
+
+.lingua{
+    color: white;
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+
+footer hr{
+    width: 9rem;
+}

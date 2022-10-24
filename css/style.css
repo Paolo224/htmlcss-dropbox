@@ -135,3 +135,9 @@ h1.titolo{
     height: 12.40rem;
     margin-top: 2rem;
 }
+
+.img-text{
+    background-color: chocolate;
+    height: 25rem;
+    margin-top: 6rem;
+}

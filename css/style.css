@@ -3,5 +3,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-align-center{
+    display: flex;
+    align-items: center;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: end;
+}
+
+.button{
+    border: none;
+    background-color: #0061ff;
+    color: white;
+    padding: .2rem .7rem;
+}
+
+header{
+    background-color: red;
+    width: 100vw;
+    height: 3.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li{
+    margin: 0 1rem;
+    list-style-type: none;
+    font-size: .9rem;
+    color: gray;
+}
+
+#align-right{
+    text-align: end;
+}
+
+.left-part{
+    height: 2rem;
+    width: 50%;
+}
+
+.right-part{
+    height: 2rem;
+    width: 50%;
 }
 

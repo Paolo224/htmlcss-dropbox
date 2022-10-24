@@ -39,7 +39,7 @@
 
 /* HEADER */
 header{
-    width: 100vw;
+    width: 100%;
     height: 3.5rem;
     justify-content: space-between;
     align-items: center;
@@ -73,7 +73,7 @@ header ul li{
 
 /* MAIN */
 .container-light-blue{
-    width: 100vw;
+    width: 100%;
     height: 29rem;
     background-color: #b4d0e7;
     padding-top: 3rem;
@@ -156,4 +156,36 @@ h1.titolo{
     border: 2px #0061ff solid;
     width: 30%;
     height: 19rem;
+}
+
+.n-team h2{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.four-aziende{
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.azienda{
+    background-color: aquamarine;
+    /* border: 2px magenta dashed; */
+    width: 15.824rem;
+    height: 15.824rem;
+}
+
+.azienda-principale{
+    background-color: rgb(236, 255, 127);
+    /* border: 2px rgb(30, 0, 255) dashed; */
+    width: calc(100% / 3);
+    height: calc(15.824rem * 2);
+}
+
+.porta-drop-in-azienda{
+    background-color: rgb(255, 127, 127);
+    /* border: 2px rgb(64, 255, 0) dashed; */
+    width: 100%;
+    height: 17rem;
 }

@@ -163,6 +163,10 @@ h1.titolo{
     margin-bottom: 2rem;
 }
 
+.n-team{
+    margin-bottom: 6.5rem;
+}
+
 .four-aziende{
     width: calc(100% / 3);
     flex-wrap: wrap;
@@ -171,21 +175,24 @@ h1.titolo{
 
 .azienda{
     background-color: aquamarine;
-    /* border: 2px magenta dashed; */
     width: 15.824rem;
     height: 15.824rem;
 }
 
 .azienda-principale{
     background-color: rgb(236, 255, 127);
-    /* border: 2px rgb(30, 0, 255) dashed; */
     width: calc(100% / 3);
     height: calc(15.824rem * 2);
 }
 
 .porta-drop-in-azienda{
     background-color: rgb(255, 127, 127);
-    /* border: 2px rgb(64, 255, 0) dashed; */
     width: 100%;
     height: 17rem;
+}
+
+.domande-frequenti{
+    height: 18rem;
+    background-color: darksalmon;
+    margin-top: 7rem;
 }

@@ -84,15 +84,15 @@ h1.titolo{
     margin-bottom: 2rem;
 }
 
-.description{
+.description-title{
     font-size: .8rem;
 }
 
-.description p{
+.description-title p{
     margin: 1.3rem 0;
 }
 
-.description i{
+.description-title i{
     margin-top: 2rem;
 }
 

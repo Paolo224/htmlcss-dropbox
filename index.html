@@ -8,15 +8,15 @@
         <!-- FOGLIO STILE CSS -->
         <link rel="stylesheet" href="./css/style.css">
         <!-- GOOGLE FONTS -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
         <!-- FONT AWESOME -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     </head>
     <body>
         <header class="flex">
-            <div class="left-part">
+            <div class="left-part flex-align-center">
                 <ul class="flex-align-center">
-                    <li>
+                    <li class="flex-align-center">
                         <img src="./img/logo-small.png" alt="Logo Dropbox">
                     </li>
                     <li>
@@ -30,8 +30,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="right-part">
-                <ul class="flex-end flex-align-center">
+            <div class="right-part flex-align-center flex-end">
+                <ul class="flex-align-center">
                     <li>
                         Supporto
                     </li>
@@ -49,5 +49,41 @@
                 </ul>
             </div>
         </header>
+
+        <main>
+            <div class="container">
+                <section class="default-1">
+                        <h1 class="titolo">
+                            Tutto ciò che ti serve per il lavoro,
+                            in un unico posto.
+                        </h1>
+                        <div class="flex">
+                            <div class="description-title">
+                                <div class="description">
+                                    <p>
+                                        Finalmente tutti i tuoi strumenti, contenuti e
+                                        collaboratori sono accessibili dallo stesso posto.
+                                        Dropbox Business è più di un spazio di archiviazione 
+                                        sicuro: è un modo intelligente e integrato per 
+                                        ottimizzare il flusso di lavoro esistente.
+                                    </p>
+                                    <button class="button">
+                                        Inizia la tua prova gratuita
+                                    </button>
+                                    <p>
+                                        Annulla in qualsiasi momento 
+                                    </p>
+                                    <p>
+                                        <i class="fa-solid fa-arrow-down fa-3x"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="img-title">
+                                <img src="./img/jumbo.png" alt="Esempio Dropbox">
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </main>
     </body>
 </html>

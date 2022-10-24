@@ -141,3 +141,19 @@ h1.titolo{
     height: 25rem;
     margin-top: 6rem;
 }
+
+.img-text~h2{
+    margin-top: 6.5rem;
+}
+
+.operazioni-linex3{
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.operazione{
+    background-color: yellow;
+    border: 2px #0061ff solid;
+    width: 30%;
+    height: 19rem;
+}

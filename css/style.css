@@ -72,11 +72,12 @@ header ul li{
 /* FINE HEADER */
 
 /* MAIN */
-.container{
+.container-light-blue{
     width: 100vw;
     height: 29rem;
     background-color: #b4d0e7;
     padding-top: 3rem;
+    position: relative;
 }
 
 h1.titolo{
@@ -98,6 +99,39 @@ h1.titolo{
 }
 
 .img-title img{
-    width: 37rem;
-    height: 22rem;
+    width: 100%;
+    height: 100%;
+}
+
+.piano-business{
+    margin-top: 8rem;
+    font-size: 1.7rem;
+}
+
+.checkbox{
+    margin-top: 2rem;
+}
+
+.checkbox input:nth-child(3){
+    margin-left: 5rem;
+}
+
+.plans{
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.card{
+    background-color: yellow;
+    border: 2px #0061ff solid;
+    width: 30%;
+    height: 40rem;
+}
+
+.card-row{
+    background-color: rgb(89, 255, 0);
+    border: 2px #ff0000 solid;
+    width: 100%;
+    height: 12.40rem;
+    margin-top: 2rem;
 }

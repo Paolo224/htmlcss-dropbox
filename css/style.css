@@ -404,6 +404,7 @@ h1.titolo{
 }
 /* FINE AZIENDE */
 
+/* DOMANDE FREQUENTI */
 .domande-frequenti{
     margin-top: 7rem;
 }
@@ -420,8 +421,10 @@ h1.titolo{
     margin-bottom: 2.5rem;
     font-size: 2rem;
 }
-
+/* FINE DOMANDE FREQUENTI */
 /* FINE MAIN */
+
+/* FOOTER */
 footer{
     background-color: black;
     height: 20rem;
@@ -430,16 +433,25 @@ footer{
 }
 
 footer section.another{
-    background-color: yellow;
     height: 10rem;
     margin-bottom: 3rem;
 }
 
 .footer-list{
     width: calc(100% / 5);
-    height: 7rem;
-    background-color: #ff0000;
-    border: 2px blue dashed;
+    color: white;
+}
+
+footer ul li{
+    list-style-type: none;
+    font-size: .8rem;
+    line-height: 1.55rem;
+}
+
+footer ul li:first-child{
+    font-weight: 700;
+    margin-bottom: .9rem;
+    font-size: 1rem;
 }
 
 .lingua{
@@ -451,3 +463,4 @@ footer section.another{
 footer hr{
     width: 9rem;
 }
+/* FINE FOOTER */

@@ -402,12 +402,25 @@ h1.titolo{
     height: 10%;
     width: 25%;
 }
+/* FINE AZIENDE */
 
 .domande-frequenti{
-    height: 18rem;
-    background-color: darksalmon;
     margin-top: 7rem;
 }
+
+.organaizer-domande{
+    justify-content: space-between;
+}
+
+.domande-frequenti hr{
+    margin: 1.5rem 0;
+}
+
+.domande-frequenti h2{
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+}
+
 /* FINE MAIN */
 footer{
     background-color: black;

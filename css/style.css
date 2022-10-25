@@ -116,17 +116,80 @@ h1.titolo{
     margin-left: 5rem;
 }
 
+/* VERTICAL CARDS */
 .plans{
     justify-content: space-between;
     margin-top: 2rem;
 }
 
 .card{
-    background-color: yellow;
-    border: 2px #0061ff solid;
+    border: 2px #d7d7d9 solid;
     width: 30%;
-    height: 40rem;
+    font-size: .9rem;
 }
+
+.title-plans{
+    text-align: center;
+    margin: .6rem 0;
+}
+
+.cost-plans{
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.prezzo{
+    margin: 1rem 0;
+    font-size: .8rem;
+}
+
+.durata{
+    color: gray;
+    font-size: .7rem;
+}
+
+.description-plans{
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.margin-of-description-plans{
+    margin: 1rem 0;
+}
+
+#button-plans{
+    margin-top: 2rem;
+    width: 100%;
+    padding: .6rem 0;
+}
+
+.acquista-ora{
+    margin: 1.5rem 0;
+    font-size: .8rem;
+}
+
+.description-plans hr{
+    width: 3rem;
+}
+
+.punti-salienti{
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.punti-salienti h3{
+    margin: 2rem 0;
+}
+
+.punti-salienti p{
+    margin: 1rem 0;
+}
+
+
+.punti-salienti i{
+    color: blue;
+}
+/* FINE VERTICAL CARDS */
 
 .card-row{
     background-color: rgb(89, 255, 0);

@@ -415,7 +415,7 @@ h1.titolo{
     margin-top: 7rem;
 }
 
-.organaizer-domande{
+.organaizer-domande1, .organaizer-domande2, .organaizer-domande3 {
     justify-content: space-between;
 }
 
@@ -433,12 +433,33 @@ h1.titolo{
     height: 100%;
 }
 
-.organaizer-domande p i:hover, div.checked-domande{
-    
+.organaizer-domande1:active~div.checked-domande1{
+    display: flex;
 } 
 
-.checked-domande{
+.organaizer-domande2:active~div.checked-domande2{
+    display: flex;
+} 
+
+.organaizer-domande3:active~div.checked-domande3{
+    display: flex;
+} 
+
+.organaizer-domande1:hover{
+    cursor: pointer;
+}
+
+.organaizer-domande2:hover{
+    cursor: pointer;
+}
+
+.organaizer-domande3:hover{
+    cursor: pointer;
+}
+
+.checked-domande1, .checked-domande2, .checked-domande3{
     width: 100%;
+    height: 100%;
     margin-top: 1rem;
     justify-content: space-around;
     align-items: center;

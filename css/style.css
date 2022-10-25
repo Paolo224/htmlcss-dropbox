@@ -141,6 +141,7 @@ h1.titolo{
 .prezzo{
     margin: 1rem 0;
     font-size: .8rem;
+    font-weight: 700;
 }
 
 .durata{
@@ -191,14 +192,48 @@ h1.titolo{
 }
 /* FINE VERTICAL CARDS */
 
+/* HORIZONTAL CARD */
 .card-row{
-    background-color: rgb(89, 255, 0);
-    border: 2px #ff0000 solid;
+    border: 2px #d7d7d9 solid;
     width: 100%;
-    height: 12.40rem;
     margin-top: 2rem;
 }
 
+.organaizer-plane-row{
+    justify-content: space-between;
+} 
+
+.description-plane-row{
+    width: 70%;
+    padding: 1rem 2rem;
+}
+
+.description-plane-row h3{
+    font-size: 1.5rem;
+}
+
+.description-plane-row h4{
+    margin-top: .7rem;
+    margin-bottom: 2rem;
+    font-size: .9rem;
+}
+
+.description-plane-row p{
+    font-size: .8rem;
+}
+
+.button-plane-row{
+    width: 30%;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+#button-plans-row{
+    width: 70%;
+    height: 20%;
+}
+
+/* FINE HORIZONTAL CARD */
 .img-text{
     background-color: chocolate;
     height: 25rem;

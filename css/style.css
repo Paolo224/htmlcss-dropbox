@@ -309,14 +309,15 @@ h1.titolo{
 
 /* AZIENDE */
 .four-aziende{
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .azienda{
-    width: 15.824rem;
-    height: 15.824rem;
+    width: 50%;
+    height: 50%;
     justify-content: center;
     align-items: center;
 }
@@ -369,7 +370,7 @@ h1.titolo{
 .azienda-principale{
     background-color: #f5f5f5;
     width: calc(100% / 3);
-    height: calc(15.824rem * 2);
+    height: calc(100vw / 3);
     padding: 1.5rem;
 }
 
@@ -425,6 +426,23 @@ h1.titolo{
 .domande-frequenti h2{
     margin-bottom: 2.5rem;
     font-size: 2rem;
+}
+
+.checked-domande img{
+    width: 20%;
+    height: 100%;
+}
+
+.organaizer-domande p i:hover, div.checked-domande{
+    
+} 
+
+.checked-domande{
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
 }
 /* FINE DOMANDE FREQUENTI */
 /* FINE MAIN */
